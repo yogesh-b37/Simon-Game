@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.one {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 3rem;
+}
+.red {
+  background-color: rgb(255, 155, 6);
+}
+.yellow {
+  background-color: rgb(190, 238, 15);
+}
+.pink {
+  background-color: rgb(255, 105, 180);
+}
+.green {
+  background-color: rgb(7, 235, 155);
+}
+.flash {
+  background-color:  white;
+}
+.userFlash{
+  background-color: green;
+}
